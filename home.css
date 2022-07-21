@@ -1,0 +1,158 @@
+#logo-intro {
+	height: 12vh;
+	width: 98vw;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+	margin: 7px 20px 7px 50px;
+}
+
+.name {
+	line-height: 70px;
+	width: 100px;
+	text-align: left;
+}
+
+.links {
+	height: 10vh;
+	width: 98vw;
+	background: rgb(215, 215, 224);
+
+	display: grid;
+	align-items: center;
+	justify-content: end;
+	grid-template-rows: 100%;
+	grid-template-columns: 10% 12% 12%;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+	font-size: 120%;
+	font-family: sans-serif;
+	transition: all 100ms linear ;
+}
+
+.link:hover {
+	font-weight: 600;
+	font-size: 140%;
+}
+
+.img-home {
+	height: 90vh;
+	width: 98vw;
+	background: url(https://img.freepik.com/premium-vector/panorama-view-india-with-taj-mahal-skyline-with-world-famous-landmarks_41327-607.jpg?w=2000);
+	opacity: 0.6;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main {
+	font-family: "Script MT";
+	color: black;
+	font-size: 300%;
+}
+
+.subtitle {
+	font-family: "Brush Script MT";
+	color: grey;
+	font-size: 225%;
+}
+
+.grp-mem {
+	font-family: "Script MT";
+	color: grey;
+	font-size: 200%;
+}
+
+.drop {
+	position: relative;
+	display: inline-block;
+}
+
+.drop-cont {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drop-cont a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop:hover .drop-cont {
+	display: block;
+}
+
+.drop-cont a:hover {
+	background: rgb(203, 203, 209);
+	font-weight: 600;
+}
+
+.img-science {
+	height: 80vh;
+	width: 98vw;
+	background: url(https://elagreens.com/wp-content/uploads/2021/05/Elagreens-images-22.png);
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo2 {
+	width: 100px;
+	height: 50px;
+}
+
+.images-science {
+	height: 60vh;
+	width: 45vw;
+	background: url(https://en-media.thebetterindia.com/uploads/2022/04/Pravin-brio-1650546424.jpg);
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -10px;
+	border: 3px solid black;
+	margin-right: 50px;
+}
+
+.hydro {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.text {
+	width: 50%;
+	height: 40vh;
+}
+
+.img-hindi {
+	height: 80vh;
+	width: 98vw;
+	background: url(https://www.kohinoor-joy.com/wp-content/uploads/2017/09/Indian-Dance.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cont {
+	text-transform: capitalize;
+	font-family: helvetica;
+}
